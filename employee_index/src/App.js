@@ -1,7 +1,7 @@
-import React from "react";
-import Counter from "./employee_index/src/components/Directory /Directory";
+import React, { Component } from "react";
+import Directory from "./components/Directory/Directory";
 
 function App() {
-  return <Directory/>;
-
+  return <Directory />;
+}
 export default App;
