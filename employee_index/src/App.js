@@ -1,7 +1,13 @@
 import React, { Component } from "react";
-import Directory from "./components/Directory/Directory";
+import SearchForm from "./components/SearchForm/SearchForm";
+import Employees from "./components/Employees/Employees";
 
 function App() {
-  return <Directory />;
+  return (
+    <div>
+      <SearchForm />
+      <Employees />;
+    </div>
+  );
 }
 export default App;
