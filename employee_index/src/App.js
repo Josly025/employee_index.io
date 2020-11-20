@@ -9,6 +9,7 @@ class App extends Component {
     employees: [],
   };
 
+  //
   //Inital set of Employees // make sure to reload page later
   componentDidMount() {
     API.search()
