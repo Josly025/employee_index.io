@@ -11,6 +11,7 @@ function SearchForm(props) {
             | Search by Employee Name, Phone Number, or Age to view their
             Contact Information |{" "}
           </p>
+          <p> | Use All Employees for Additional Searches |</p>
         </div>
       </div>
     </div>
